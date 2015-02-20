@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 
 gem 'bootstrap-sass', '~> 3.3.3'
 
+gem 'devise'
+
 
 
 group :development, :test do 
