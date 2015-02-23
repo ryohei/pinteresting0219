@@ -5,4 +5,7 @@ class Pin < ActiveRecord::Base
 
 	validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
+	validates :description, presence: true
+	validates :image, presence: true
+
 end
